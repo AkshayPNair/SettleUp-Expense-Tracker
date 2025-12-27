@@ -144,14 +144,6 @@ frontend/
 - Strong TypeScript typing for predictable data flow
 - Clear separation between pages, hooks, and services
 
-
-
-**Design principles applied:**
-- Business logic is framework-independent
-- ORM logic stays inside repositories only
-- Use-cases depend on interfaces, not implementations
-- Clear separation of concerns
-
 ---
 
 ## 💰 Financial Accuracy & Rounding Safety
@@ -169,7 +161,7 @@ This ensures **financial correctness**, even with decimal values.
 
 ---
 
-## 🔁 Database Transactions (IMPORTANT)
+## 🔁 Database Transactions 
 
 ### Where Transactions Are Used
 Database transactions are used during **expense creation**, covering:
